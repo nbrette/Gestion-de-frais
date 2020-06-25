@@ -18,7 +18,7 @@ namespace GSB_SQL
         {
 
             MySqlConnection connex = null;
-            string chaineConnex = "server=localhost; user id=root; password=iCwyoDrln4N4l9Kg; database=gsb; Convert Zero Datetime = True";
+            string chaineConnex = "server=localhost; user id=login; password=password; database=gsb; Convert Zero Datetime = True";
             try
             {
                 connex = new MySqlConnection(chaineConnex);
